@@ -29,4 +29,4 @@ It writes the sorted, de-duplicated values of the first column to the output fil
 |---|---|
 | `students.xml` / `students.csv` | Student–module enrolments with marks |
 | `faculty.xml` / `faculty.csv` | Faculty, building and room records |
-| `students.txt` | Example output of `ex2.sh` |
+| `students.txt` | Output of `ex2.sh students.csv students.txt` (5,435 unique student names) |
