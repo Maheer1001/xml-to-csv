@@ -1,6 +1,6 @@
 # XML to CSV Shell Scripts
 
-Bash scripts that convert a university's student and faculty records from XML to CSV, and pull unique values out of the results. They use only standard Unix tools: `grep -P`, `sed`, `awk`, `tr`, `sort` and `uniq`.
+Bash scripts that convert a university's student and faculty records from XML to CSV, and pull unique values out of the results. They use only standard Unix tools: `grep -P`, `sed`, `awk`, `tr`, `sort` and `uniq`. `ex1.sh` needs GNU grep (for `-P`) and a UTF-8 locale, e.g. `export LC_ALL=C.UTF-8`.
 
 > Coursework for the University of Southampton Data Management module (COMP1314, 2024). All the data is synthetic: the names, IDs, addresses and the university itself are generated.
 
